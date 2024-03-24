@@ -1,0 +1,42 @@
+body {
+    background: url(./asswts/telainicial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: hidden;
+}
+
+#tela1 img {
+    width: 0px;
+    height: 80px;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    margin-left: 650px;
+    font-size: 60px;
+}
+
+h2 {
+    margin-left: 650px;
+    font-size: 50px;
+    margin-top: 110px;
+}
+
+p {
+    margin-left: 650px;
+    font-size: 26px;
+}
+
+#social-links {
+    display: flex; /* Adiciona um display flex para alinhar os itens horizontalmente */
+    margin-left: 648px; 
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+#social-links a {
+    padding: 10px;
+    color: black;
+    font-size: 23px;
+}
